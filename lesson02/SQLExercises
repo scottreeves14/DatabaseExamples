@@ -1,0 +1,12 @@
+Exercises for you to try using the Volcanoes database
+
+
+Note that the Boolean values are 1 for True, 0 for False.
+1. All violent volcanoes. 
+2. Those which are not active.
+3. Those which last erupted before 1960.
+4. All volcanoes that start with the letter K.
+5. Those which are quiet and active. 
+6. Those which last erupted in the 1990s.
+7.  Repeat 3 but reverse the order so the most recent eruption is first.
+8.  Repeat 5, but order by name in reverse.
