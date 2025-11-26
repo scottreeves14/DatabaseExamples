@@ -1,12 +1,15 @@
-Exercises for you to try using the Volcanoes database
+Exercises for you to try using the sweets database.
 
+1.
+SELECT category_tbl.category_name, sweet_tbl.sweet_ID, sweet_tbl.sweet_name, sweet_tbl.bag_weight, sweet_tbl.price, sweet_tbl.image, sweet_tbl.category_id
+FROM category_tbl INNER JOIN sweet_tbl ON category_tbl.category_id = Sweet_tbl.category_id 
+WHERE sweet_tbl.price <= '$5.00';
 
-Note that the Boolean values are 1 for True, 0 for False.
-1. All violent volcanoes. 
-2. Those which are not active.
-3. Those which last erupted before 1960.
-4. All volcanoes that start with the letter K.
-5. Those which are quiet and active. 
-6. Those which last erupted in the 1990s.
-7.  Repeat 3 but reverse the order so the most recent eruption is first.
-8.  Repeat 5, but order by name in reverse.
+2.
+SELECT category_tbl.category_name, sweet_tbl.sweet_ID, sweet_tbl.sweet_name, sweet_tbl.bag_weight, sweet_tbl.price, sweet_tbl.image, sweet_tbl.category_id
+FROM category_tbl INNER JOIN sweet_tbl ON category_tbl.category_id = Sweet_tbl.category_id 
+WHERE sweet_tbl.price <= '$5.00' and category_tbl.category_name = 'Chocolate' or category_name = 'Toffee'
+ORDER BY sweet_tbl.sweet_name DESC;
+
+3. Adapt 1 or 2 to produce a unique query.
+
