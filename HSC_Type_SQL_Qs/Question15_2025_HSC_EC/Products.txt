@@ -1,4 +1,4 @@
-LP1,'Laptop','Electronics','1200',30
-OC31,'Office Chair','Furniture','200',20
-HP43,'Headphones','Electronics','150',100
-SP5,'Smartphone','Electronics','800',50
+LP1,Laptop,Electronics,1200,30
+OC31,"Office Chair",Furniture,200,20
+HP43,Headphones,Electronics,150,100
+SP5,Smartphone,Electronics,800,50
