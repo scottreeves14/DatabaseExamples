@@ -1,5 +1,5 @@
 
-##NOTES:
+NOTES:
 
 This contains a tutorial on creating tables, creating databases, populating tables and running SQL commands to extract data from a database. This is to cover off pages 22-23 of the NESA course specication for the NESA course "Software Engineering" https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/overview#software-engineering-course-specifications-software_engineering_11_12_2022
  
