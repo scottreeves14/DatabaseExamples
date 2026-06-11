@@ -6,6 +6,5 @@ This contains a tutorial on creating tables, creating databases, populating tabl
 The lessons are as per below.
 1. SQL lesson01 is in the lesson01 directory. It covers importing data from a comma delimited text file into an sqlite3 database. There are some basic SQL scripts in the lesson01 directory, including one to create a table and one to extract data from tables.
 2. SQL lesson02 is in the lesson02 directory. It covers creation of one or more tables and using inner join to extract data.
-
-HSC style and past HSC questions are under HSC_Type_SQL_Qs.
+3. HSC style and past HSC questions are under HSC_Type_SQL_Qs.
 
